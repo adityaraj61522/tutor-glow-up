@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+# 🤖 AI-Powered Tutor with RAG and Multimodal Support  
 
-## Project info
+An intelligent tutor platform that helps students learn directly from their own study materials. Upload PDFs, generate structured notes, ask questions through chat or voice, and receive accurate, context-aware explanations — powered by Retrieval-Augmented Generation (RAG), Whisper AI, and LLaMA models integrated via GroqAI.  
 
-**URL**: https://lovable.dev/projects/6dd2d266-86a4-4ea6-a6a7-3afc28bb7b18
+---
 
-## How can I edit this code?
+## 📝 Project Overview  
 
-There are several ways of editing your application.
+This project enables students to:  
+- 📂 Upload study material in **PDF format**.  
+- 📝 Automatically **extract key content** and generate personalized study notes.  
+- 💬 Interact with an **AI-powered tutor** for Q&A using **RAG**.  
+- 🎤 Ask questions using **voice input** with **Whisper AI transcription**.  
+- ⚡ Get fast, context-aware responses via **LLaMA models on GroqAI**.  
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6dd2d266-86a4-4ea6-a6a7-3afc28bb7b18) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+![alt text](ai-tutor-hero.jpg)
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Tech Stack  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+**Frontend**  
+- Flutter (cross-platform mobile & web app)  
+- Chat interface, PDF upload, voice input  
 
-Follow these steps:
+**Backend**  
+- Flask (REST APIs for orchestration & processing)  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**AI Components**  
+- 📄 PDF parsing & text extraction → Vector embeddings stored in DB  
+- 🔎 RAG pipeline for context-based Q&A  
+- 🎤 Whisper AI for speech-to-text query transcription  
+- 🤖 GroqAI + LLaMA for low-latency inference  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Database**  
+- Vector Database: Pinecone / Weaviate / FAISS  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🚀 Key Features  
 
-**Edit a file directly in GitHub**
+- 📂 Upload PDFs and auto-generate **structured study notes**.  
+- 🔎 **RAG-enabled chatbot** for accurate, context-driven answers.  
+- 🎤 **Voice-based queries** with Whisper AI transcription.  
+- 📘 Personalized tutor responses tailored to uploaded content.  
+- 📱 Cross-platform availability via Flutter (Android, iOS, Web).  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🔑 My Contributions  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Designed the complete **RAG pipeline** (vector embeddings → retrieval → LLaMA response).  
+- Integrated **Whisper AI** for multilingual voice transcription.  
+- Built **Flask APIs** for vector storage, retrieval, and tutoring logic.  
+- Developed **Flutter UI** for chat, uploads, and interactive learning.  
+- Optimized **GroqAI integration** for **real-time, low-latency responses**.  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🎯 Impact  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- Empowered students to **learn from their own materials** with AI assistance.  
+- Increased **accessibility** through **voice-based learning**.  
+- Showcased practical integration of **LLMs, RAG, and multimodal input**.  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/6dd2d266-86a4-4ea6-a6a7-3afc28bb7b18) and click on Share -> Publish.
+## 📸 Demo & Media  
 
-## Can I connect a custom domain to my Lovable project?
+👉 ![alt text](image.png)
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+![alt text](ai_tutor_full_design.png)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

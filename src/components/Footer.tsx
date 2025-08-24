@@ -14,10 +14,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © 2025 AI Tutor. All rights reserved.
+              © 2025 AI Tutor || Aditya Raj. All rights reserved.
             </p>
           </div>
-          
+
           <div className="flex space-x-4">
             {socialLinks.map((social, index) => (
               <Button
