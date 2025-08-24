@@ -8,10 +8,10 @@ const AboutSection = () => {
           </h2>
           
           <p className="text-lg md:text-xl text-foreground/90 leading-relaxed max-w-3xl mx-auto">
-            AI Tutor helps students learn from their own content (PDFs, notes, study material). 
-            Using <span className="text-primary font-semibold">Retrieval Augmented Generation (RAG)</span>, 
-            it prepares summaries, notes, and answers queries in real-time. 
-            Integrated with <span className="text-secondary font-semibold">Whisper AI</span> for voice queries.
+            Transform your study materials into an intelligent learning companion! Upload PDFs, notes, and documents 
+            to create your personalized AI tutor. Powered by advanced <span className="text-primary font-semibold">RAG technology</span>, 
+            it instantly generates summaries, answers complex questions, and provides real-time insights. 
+            Simply speak your questions with <span className="text-secondary font-semibold">Whisper AI</span> voice recognition—learning has never been this effortless!
           </p>
           
           <div className="mt-8 flex justify-center">
